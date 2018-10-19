@@ -17,6 +17,7 @@
 		<p class="copyright"><?php
 			echo wp_kses( aos_get_footer_copyright(), array( 'a' => array( 'href' => array(), 'title' => array(), 'rel' => array(), 'target' => array() ), 'em' => array(), 'strong' => array(), 'i' => array() ) );
 			?></p>
+		<p class="copyright">Powered by <a href="https://dekendesign.com" rel="canonical" title="DekenDesign Homepage">DekenDesign</a></p>
 	</footer>
 	<?php wp_footer(); ?>
 </body>
