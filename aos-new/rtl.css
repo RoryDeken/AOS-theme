@@ -1,0 +1,124 @@
+/**
+ * RTL stylesheet is highly experimental.
+ */
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.content {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .primary-menu {
+    left: auto;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .site-header__social-button {
+    left: 0;
+    right: auto;
+  }
+}
+
+.top-post__item {
+  float: right;
+}
+
+.post__sidebar {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.post__sidebar .sticky-content {
+  left: auto !important;
+}
+
+.breadcrumbs li {
+  float: right;
+}
+
+.post__header .post__meta-top .meta-top__cat {
+  margin-left: 0;
+  margin-right: -2.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  .post__header .post__meta-top .meta-top__cat {
+    margin: 0;
+  }
+}
+
+.post__header .post__meta-top .meta-top__date {
+  margin-left: 0;
+  margin-right: .4rem;
+}
+
+.post__header .post__meta-top .meta-top__author {
+  margin-left: 0;
+  margin-right: .4rem;
+}
+
+.post__preview-next li:first-child {
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.widget-recent-post li a .widget-recent-post__thumbnail {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.widget_recent_entries .widgettitle::before, .aos_recent_posts .widgettitle::before {
+  margin-right: 0;
+  margin-left: .2em;
+}
+
+.related-post__item .related-post__item-date::before,
+.widget-recent-post li a .widget-recent-post__meta .widget-recent-post__post-date::before,
+.posts__item .posts__item-meta .category::before,
+.posts__item .posts__item-meta time::before {
+  margin-right: 0;
+  margin-left: .2em;
+}
+
+.search-form label {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.comment__text::after {
+  border-left-color: #f3f3f3;
+  border-right-color: transparent;
+  right: auto;
+  left: 100%;
+}
+
+.avatar {
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+.comment ol, .comment ul {
+  margin-left: 0;
+  margin-right: 1.25rem;
+}
+
+#comment-area > ol, #comment-area > ul {
+  margin-left: 0;
+  margin-right: .4rem;
+}
+
+.comment__meta cite, .comment__meta time, .comment__meta span {
+  margin-right: 0;
+  margin-left: .6rem;
+}
+
+.nopost {
+  margin-left: 0;
+  margin-right: .4rem;
+}

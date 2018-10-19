@@ -1,0 +1,89 @@
+/*
+Theme Name: aos-new
+Theme URI: https://dekendesign.com/aos
+Author: DekenDesign
+Author URI: https://dekendesign.com/
+Description: aos is a simple and lightweight WordPress theme suitable for news, magazine, owned media and blog websites. It is fully responsive and mobile friendly, especially mobile horizontal scroll menu is very accessible. You can customize theme easily such as header logo, color, social links, etc. It supports a Schema.org microdata markup.
+Version: 1.1.0
+License: Proprietary to DekenDesign and aos
+Tags: blog, podcast, featured posts, images
+Text Domain: aos-new
+*/
+
+.category::before, .widget_categories .cat-item::before {
+	display:none;
+}
+.post__header .post__meta .meta-top__cat {
+	background:black;
+	display:inline-block;
+}
+a.photo_cred  {
+	color:white;
+}
+a.photo_cred:hover,
+a.photo_cred:focus {
+	color:#8c8c8c;
+}
+
+a:hover, a:focus, .posts__item .posts__item-title a:hover, .posts__item .posts__item-title a:focus {
+	color:#8c8c8c;
+}
+
+#main-content p a {
+	text-decoration:underline;
+}
+#main-content p a:focus, #main-content p a:hover {
+	text-decoration:none;
+}
+#social span a {
+	    font-size: 30px;
+    position: relative;
+    top: 4px;
+}
+.social-follow a {
+	font-size:2em;
+	padding:0.1em;
+}
+.social-follow a:hover i, .social-follow a:focus i {
+	transform: translateY(-5px);
+}
+#recent-posts-2 ul li {
+	border-bottom:2px solid #333;
+	padding-bottom:1em;
+	margin-bottom:1em;
+}
+
+#header .site-header__inner{
+	height:120px;
+}
+
+.site-header__logo {
+	max-height:100px;
+	margin: 10% 0 0 -10%;
+}
+.primary-menu>.menu-item {
+	font-size:24px;
+}
+
+.top-post__description{
+	background:rgba(20,20,20,0.95);
+	padding: .6em 1.2rem;
+    margin: 0;
+	width:100%;
+}
+a, .button.hollow, .breadcrumbs a, .color-reverse:hover, .posts__item h2 a:hover, .widget-recent-post li:hover .widget-recent-post__meta {
+	color:#444;
+}
+@media screen and (max-width: 1023px)
+{
+	.site-header__logo {
+	max-height:60px;
+}
+.primary-menu>.menu-item {
+	font-size:18px;
+}
+}
+
+.page-numbers:hover, .page-numbers:focus {
+	color:black;
+}
