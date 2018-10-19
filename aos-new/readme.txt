@@ -1,6 +1,6 @@
-# Summery
+# Summary
 
-aos - WordPress Theme
+AOS - WordPress Theme
 Contributors: DekenDesign
 URL: https://dekendesign.com
 Version: 1.0.0
