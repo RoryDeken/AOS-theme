@@ -29,7 +29,7 @@ a:hover, a:focus, .posts__item .posts__item-title a:hover, .posts__item .posts__
 	color:#8c8c8c;
 }
 
-#main-content p a {
+#main-content p a, #main-content li a {
 	text-decoration:underline;
 }
 #main-content p a:focus, #main-content p a:hover {
